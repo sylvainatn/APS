@@ -1,19 +1,19 @@
 "use client";
 
 import React from 'react';
-import { Helmet } from 'react-helmet-async';
+import Head from 'next/head';
 
 const MentionsLegales = () => {
   return (
     <>
-      <Helmet>
+      <Head>
         <title>Mentions Légales - APS</title>
         <meta
           name="description"
           content="Découvrez les mentions légales du site d'APS - Agent Propreté Multiservice, spécialiste en nettoyage et entretien."
         />
         <meta name="robots" content="noindex, nofollow" />
-      </Helmet>
+      </Head>
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <h1 className="text-3xl font-bold text-center text-teal-900 mb-8 py-1">
